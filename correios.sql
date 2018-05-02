@@ -42,37 +42,37 @@ INSERT INTO localidades (localidade, uf_id,cep_cidade) VALUES ('Vitoria da Conqu
                                                                ('Conceicao da Barra',4,29960000),('Conceicao do Castelo',4,29370000),('Domingos Martins',4, 29260000),
                                                                ('Dores do Rio Preto',4,29580000), ('Ecoporanga',4, 29850000),('Guarapari',4,29200010),     
                                                                
-																('Aveiro',5,68150000),('Bagre',5,68475000),('Bannach',5,68388000),('Trairão',5,68198000),
+								('Aveiro',5,68150000),('Bagre',5,68475000),('Bannach',5,68388000),('Trairão',5,68198000),
                                                                ('Tracuateua',5, 68647000),('Viseu',5,68620000),('Vitória do Xingu',5,68383000),('Xinguara',5, 68555006),('Sapucaia',5,68548000),
                                                                ('Tailândia',5,68695000),
                                                                
-																('Anama',6,69445000),('Anori',6,69440000),('Benjamin Constant',6,69630000),('Beruri',6,69430000),('Fonte Boa',6,69670000),
+								('Anama',6,69445000),('Anori',6,69440000),('Benjamin Constant',6,69630000),('Beruri',6,69430000),('Fonte Boa',6,69670000),
                                                                ('Guajará',6,69895000),('Itapiranga',6,69120000),('Manaus',6,69001009),('Nova Olinda do Norte',6,69230000),
                                                                ('Parintins',6, 69150990),
 
 																										
-																('Acorizal',7,78480000),('Água Boa',7,78635000),('Barra do Bugres',7,78390000),('Bom Jesus do Araguaia',7,78678000),
+								('Acorizal',7,78480000),('Água Boa',7,78635000),('Barra do Bugres',7,78390000),('Bom Jesus do Araguaia',7,78678000),
                                                                 ('Confresa',7,78652000),('Guiratinga',7,78760000),('Juruena',7,78340000),('Juara',7,78575000),('Nova Canaa do Norte',7,78515000),
                                                                 ('Novo Mundo',7,78528000),                    
                                                                
-																('Águas Formosas',8, 39880000),('Águas Vermelhas',8, 39990000),('Douradoquara',8,38530000) ,('Entre Rios de Minas',8, 35490000) ,	
-																('Entre Folhas',8, 35324000),('Fernandes Tourinho',8,35135000 ),('Florestal',8,35690000),('Fronteira',8,38230000),('Itamarandiba',8,39670000),
-																('Itapecerica',8,35550000 ),
+								('Águas Formosas',8, 39880000),('Águas Vermelhas',8, 39990000),('Douradoquara',8,38530000) ,('Entre Rios de Minas',8, 35490000) ,	
+								('Entre Folhas',8, 35324000),('Fernandes Tourinho',8,35135000 ),('Florestal',8,35690000),('Fronteira',8,38230000),('Itamarandiba',8,39670000),
+								('Itapecerica',8,35550000 ),
                                                                
                                                                ('Alcântaras',9,62120000),('Altaneira',9,63195000),('Chorozinho',9,62875000),('Crato',9,63100005),('Itarema',9,62590000),('Mauriti',9,63210000),
                                                                  ('Morrinhos',9,62550000),('Ocara',9,62755000),('Paraipaba',9,62685000),('Parambu',9,63680000),
 
 
 
-																('Aracaju',10, 49000001),('Areia Branca',10,49580000),('Barra dos Coqueiros',10,49140000),('Canhoba',10,49880000),('Capela',10,49700000),
-																('Ilha das Flores',10,49990000),('Laranjeiras',10,49170000),('Malhada dos Bois',10,49940000),('Nossa Senhora de Lourdes',10,49890000),
+								('Aracaju',10, 49000001),('Areia Branca',10,49580000),('Barra dos Coqueiros',10,49140000),('Canhoba',10,49880000),('Capela',10,49700000),
+								('Ilha das Flores',10,49990000),('Laranjeiras',10,49170000),('Malhada dos Bois',10,49940000),('Nossa Senhora de Lourdes',10,49890000),
                                                                 ('Riachuelo',10,49130000);
                                                                 
                                                                 
                                                                 
 
 insert into bairros (bairro, local_id, cep_bairro) values  ('Candeias', 1,45028440), ('Primavera',2,0),('Primavera',3,0),('Amaralina',4,0),('Centro',5,0),('Iguape',6,45658310),
-														  ('Centro',7,44700973), ('Itaigara',8,5210394),('Panorama',9, 48605055),('Gabriela',10,44030785),
+							  ('Centro',7,44700973), ('Itaigara',8,5210394),('Panorama',9, 48605055),('Gabriela',10,44030785),
                                                             
                                                           ( 'Centro',11,0), ('Antônio Zanaga I',12,13474640),('Residencial Tamboré Barueri',13,06458070),
                                                           ( 'Parque das Nações',14,17053060),('Centro',15,13015180),  ('Jardim América',16,12702130),('Centro',17,09910710),                                    
@@ -97,16 +97,16 @@ insert into bairros (bairro, local_id, cep_bairro) values  ('Candeias', 1,450284
                                                          ('Centro',61,0),('Jd Tropical III',62,0),('Centro',63,0),('Centro',64,78678970),('St Sudoeste Confresa',65,0),
                                                          ('Cohab Garça Branca',66,0),('Cid Alta',67,0),('Jd Stª Cruz Juara', 68,0),('Centro',69,0),('Aeroporto',70,0),
 
-														('Água Quente',71,39880972),('Novo Progresso',72,0),('Centro',73,0),('Batista Oliveira',74,0),('Barreira',75,0),
-														('Zn Rural Fernandes',76,0),('Lga Romão Florestal',77,0),('Cohab Fronteira',78,0),('Sebastião M Ramos',79,0),('Ingas',80,0),
+							  ('Água Quente',71,39880972),('Novo Progresso',72,0),('Centro',73,0),('Batista Oliveira',74,0),('Barreira',75,0),
+							   ('Zn Rural Fernandes',76,0),('Lga Romão Florestal',77,0),('Cohab Fronteira',78,0),('Sebastião M Ramos',79,0),('Ingas',80,0),
 
 
-														('Alt Bela Vista',81,0),('Zn Rural',82,0),('Zn Rural',83,0),('Parque Grangeiro',84,63106100),('Zn Rural',85,0),
-														('Zn Rural',86,0),('Zn Rural',87,0),('Zn Rural',88,0),('Zn Rural',89,0),('Zn Rural',90,0),
+							   ('Alt Bela Vista',81,0),('Zn Rural',82,0),('Zn Rural',83,0),('Parque Grangeiro',84,63106100),('Zn Rural',85,0),
+							   ('Zn Rural',86,0),('Zn Rural',87,0),('Zn Rural',88,0),('Zn Rural',89,0),('Zn Rural',90,0),
 
-														('Getúlio Vargas',91,49055740),('Zn Rural',92,0),('Lotm Marivan',93,0),('Centro',94,0),('Aeroporto',95,0),
-														('Ilha das Flores',96,0),('Farolândia',97,0),('Malhada dos Bois',98,0),('Centro',99,0),
-														('Lamarão	Riachuelo',100,0);
+							    ('Getúlio Vargas',91,49055740),('Zn Rural',92,0),('Lotm Marivan',93,0),('Centro',94,0),('Aeroporto',95,0),
+							    ('Ilha das Flores',96,0),('Farolândia',97,0),('Malhada dos Bois',98,0),('Centro',99,0),
+							     ('Lamarão	Riachuelo',100,0);
 
 
 
@@ -134,24 +134,24 @@ insert into logradouros (logradouro,bairro_id,cep_logradouro) values ('Avenida L
                                                                  ('Travessa Anápolis',50,0),
                                                                  
                                                                  
-																('Rua Alvaro Maia, s/n',51,0),('Avenida 31 de Março',52,0),('Travessa 1',53,0),('Travessa Beruri',54,0),('Avenida Francisco Pereira de Souza 626',55,0),
+								 ('Rua Alvaro Maia, s/n',51,0),('Avenida 31 de Março',52,0),('Travessa 1',53,0),('Travessa Beruri',54,0),('Avenida Francisco Pereira de Souza 626',55,0),
                                                                 ('Beco Guarajá',56,0),('Rua Itapiranga',57,0),('Rua Anita Malfatti',58,0),('Avenida Armando Prado',59,0),('Rua Alfredo Lima',60,0),
                                                                 
                                                                 
                                                                 ('Rua 1',61,0) ,('Rua 1',62,0),('Rua 1',63,0),('Rua Dois, s/n Quadra 44 Lote 8',64,0),																	
-																('Rua 1',65,0),('Rua 1',66,0),('Rua 13',67,0),('Rua 2',68,0),('Rua 1',69,0),('Rua Topázio',70,0),
+								('Rua 1',65,0),('Rua 1',66,0),('Rua 13',67,0),('Rua 2',68,0),('Rua 1',69,0),('Rua Topázio',70,0),
                                                                 
                                                                 ('Rua Carneirinho Antonio Soares 157',71,0),('Rua Juscelino Kubitschek',72,0),('Rua João Pinheiro',73,0),
                                                                 ('Rua Marta Ribeiro Batista Oliveira',74,0),('Rua Amorino Marques do Amaral',75,0),
-																('Córrego Marumbar',76,0),('Rua Campo Comprido',77,0),('Rua 1',78,0),('Rua B',79,0),('Rua 1',80,0),
+								('Córrego Marumbar',76,0),('Rua Campo Comprido',77,0),('Rua 1',78,0),('Rua B',79,0),('Rua 1',80,0),
                                                                  
                                                                 ('Rua Presidente Castelo Branco',81,0),('Fazenda Alto Alegre',82,0),('Distrito Lagoa do Cedro',83,0),
-																('Rua Antônio Teodorico Barbosa',84,0),('Sítio Águas das Velhas',85,0),('Vila Antônio dos Posseiros-Sto',86,0),
-																('Distrito Espinho dos Lopes',87,0),('Fazenda Adrianopoles',88,0),('Acesso Acampamento do Dnocs',89,0),
-																('Distrito Algodoes',90,0),
+								('Rua Antônio Teodorico Barbosa',84,0),('Sítio Águas das Velhas',85,0),('Vila Antônio dos Posseiros-Sto',86,0),
+								('Distrito Espinho dos Lopes',87,0),('Fazenda Adrianopoles',88,0),('Acesso Acampamento do Dnocs',89,0),
+								('Distrito Algodoes',90,0),
                                                                 
                                                                 ('Rua Amintas de Souza Bonfim',91,0),('Rodovia BR-235',92,0),('Rua 1',93,0),('Rua Américo S da Rocha',94,0),('Rua D',95,0),
-																('Rua Vasco Gama',96,0),('Rua 1',97,0),('Rua 5 Pedras',98,0),('Rua Vinte Um Abril',99,0),('Rua H',100,0);
+								('Rua Vasco Gama',96,0),('Rua 1',97,0),('Rua 5 Pedras',98,0),('Rua Vinte Um Abril',99,0),('Rua H',100,0);
                                                               
                                                                 
                                                                 
