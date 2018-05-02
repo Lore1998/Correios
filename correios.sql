@@ -159,6 +159,5 @@ insert into logradouros (logradouro,bairro_id,cep_logradouro) values ('Avenida L
  alter table localidades add column sigla_uf varchar (2) not null; 
 update localidades l inner join ufs u on l.uf_id = u.id set l.sigla_uf = u.sigla;
 
-
-select logradouros.logradouro, bairros.bairro, localidades.localidade, localidades.sigla_uf, localidades.cep_cidade, bairros.cep_bairro, logradouros.cep_logradouro from 
-logradouros inner join bairros inner join localidades where logradouros.bairro_id = bairros.id and bairros.local_id = localidades.id and bairros.bairro like'%Centro%';
+select logradouros.logradouro, bairros.bairro, localidades.cep_cidade, localidades.localidade, localidades.sigla_uf from logradouros logradouros inner join localidades localidades
+ on logradouros.id = localidades.id inner join bairros bairros on bairros.id = logradouros.id where logradouro like '%Marta%' or cep_logradouro like '%Marta%';
